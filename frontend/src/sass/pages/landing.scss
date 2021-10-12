@@ -1,0 +1,21 @@
+.landing {
+	width: 100%;
+	position: relative;
+
+	&__search{
+		position: absolute;
+		top: 13%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	&__bg {
+		background-size: cover;
+		background-attachment: fixed;
+		background-origin: content-box;
+		height: 60vh;
+		width: 100vw;
+		@include respond(phone){height: 45vh;}
+
+	}
+}
